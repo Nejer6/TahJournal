@@ -1,0 +1,301 @@
+body{
+    font-family: 'Jura', sans-serif;
+    font-family: 'Philosopher', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+/* настройка слайдера на главной */
+.glav .carousel-inner{
+    height: 800px;
+}
+.glav .carousel-item{
+    margin-top: -400px;
+}
+.glav .unitsl{
+    margin-top: -100px;
+}
+td img{
+    height: 150px;
+}
+/* настройка карточек с товарами */
+.product-card{
+    background-color: rgb(224, 224, 224);
+    padding: 10px;
+    margin: 20px;
+    transition: all 0.2s;
+    min-height: 630px;
+}
+.product-card img{
+    max-width: 100%;
+    height: 300px;
+    transition: all 0.2s;
+}
+.product-card:hover, .product-card img:hover {
+    background-color: rgb(175, 175, 175);
+    border-radius: 20px;
+}
+/* для футера */
+footer{
+    background-color: rgb(241, 241, 241);
+    padding: 20px;
+}
+footer a{
+    color: #000;
+    text-decoration: none;
+}
+/* настройка слайдера в каталоге (слайдер с новинками) */
+.news .carousel-item{
+    background-color: rgb(199, 199, 199);
+}
+.news img {
+    height:600px;
+    margin: 0 auto;
+}
+.news .carousel-caption{
+    background-color: rgba(53, 53, 53, 0.664);
+    border-radius: 20px;
+}
+.news a{
+    color: rgb(187, 187, 187);
+}
+/* просто заголовки по центру с отступами */
+h2{
+    text-align: center;
+    margin: 40px;
+}
+/* настройка изображений и текста на странице о нас */
+.crText img{
+    width: 50%;
+    height: auto;
+}
+.crText p{
+    margin: 50px;
+}
+/* настройка карты на странице контактов */
+.map iframe{
+    width: 1000px;
+    height: 570px;
+    margin-right: 200px;
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+.map div{
+    margin-bottom: 150px;
+    margin-top: 130px;
+}
+.logo{
+    width: 100px;
+}
+.dropdown{
+    margin-right: 55px;
+    width: 100px;
+}
+
+html,
+body {
+	height: 100%;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+main {
+	flex: 1 0 auto;
+}
+footer {
+	flex: 0 0 auto;
+}
+.MIIGAiKLogo{
+    width: 50px;
+}
+.autForm input, .regForm input{
+    margin:0 auto;
+    margin-bottom: 20px;
+    width: 300px;
+}
+.imgMainPage{
+    width: 30%;
+    float: left;
+    margin: 20px;
+}
+.textMainPage{
+    margin: 30px;
+    font-size: 30pt;
+    text-align: center;
+}
+.btnMainPage{
+    margin-left:20%;
+    font-size: 30pt;
+    background-color: #f3ad2f;
+    border: none;
+}
+.btnMainPage:hover{
+    background-color:#e29100;
+}
+.dropdown .nav-link{
+    color: #f3ad2f;
+}
+.autForm .btn, .regForm .btn{
+    background-color: #f3ad2f;
+    border: none;
+}
+.tj{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.tj h1{
+    text-align: center;
+}
+ .mainTable td{
+    border:1px solid rgb(86, 86, 86);
+    text-align: center;
+}
+.mainTable {
+    margin-top: 20px;
+}
+.mainmainTable{
+    width: 70%;
+    margin: 0 auto;
+    margin-top:40px ;
+    margin-bottom: 40px;
+}
+.tableHeader{
+    background-color: #f3ad2f;
+}
+.mainTable input{
+    border: 1px solid #ebebeb;
+    width: 110px;
+}
+.bigTd{
+    height: 60px;
+}
+td .addStationButton{
+    background-color: #f3ad2f;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;  
+}
+td .delStationButton{
+    background-color: #8b8b8b;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+.emptyColumns{
+    border-bottom:1px solid #ebebeb;
+}
+.btnPM{
+    border-radius: 50%;
+    border: none;
+    width: 40px;
+    height: 40px;
+}
+#addAmendment{
+    background-color: #f3ad2f;
+}
+#addAmendment:hover{
+    background-color:#e29100;
+}
+.btnCalcul{
+    margin-top: 20px;
+    border: none;
+    background-color: #f3ad2f;
+    padding: 0 15px;
+    height:50px;
+}
+.btnCalcul:hover{
+    background-color:#e29100;
+}
+.btnDownloadJournal{
+    margin-left: 20%;
+    border: none;
+    background-color: #f3ad2f;
+    width: 100px;
+    height:30px;
+}
+.btnDownloadJournal:hover{
+    background-color:#e29100;
+}
+.mainSave a,.mainSave form{
+    margin-left: 20px;
+}
+.linkSaveJournal{
+    border: none;
+    background-color: #f3ad2f;
+    width: auto;
+    padding: 0 10px;
+    height:30px;
+}
+.linkSaveJournal:hover{
+    background-color:#e29100;
+}
+.btnDel{
+    padding: 0 10px;
+    height:30px;
+    background-color: #8b8b8b;
+    border: none;
+    color: #000;
+    margin-left: 10px;
+}
+.btnDel:hover{
+    background-color:#b2b1b1;
+}
+.linkJournal{
+    color: #e29100;
+    max-width: 500px;
+}
+.linkJournal:hover{
+    color: #f3ad2f;
+}
+#tableOfAmendments{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#tableOfAmendments input{
+    margin-left: 10px;
+    border: 1px solid #e29100;
+}
+footer a{
+    color: #e29100;
+    text-decoration: underline;
+}
+footer a:hover{
+    color: #f3ad2f;
+    text-decoration: none;
+}
+@media screen and (max-width: 991px) {
+    .dropdown-menu {
+      width: 440px;
+    }
+  }
+#df td, #df2 td{
+    border: 1px solid rgb(85, 85, 85);
+    margin: 0;
+    text-align: right;
+}
+iframe{
+    border: 2px solid #e29100;
+}
+#btnPreviousPage{
+    border: none;
+    background-color: #f3ad2f;
+    width: auto;
+    padding: 0 10px;
+    height:30px;
+}
+.btnPreviousPage:hover{
+    background-color:#e29100;
+}
+#btnNextPage{
+    border: none;
+    background-color: #f3ad2f;
+    width: auto;
+    padding: 0 10px;
+    height:30px;
+    margin: 0 96.8%;
+}
+.btnNextPage:hover{
+    background-color:#e29100;
+}
